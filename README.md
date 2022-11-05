@@ -1,3 +1,7 @@
+# Description
+ 
+ This project was designed with the good looking front-end framework by using reactjs along with the concept of minting NFT's with the help of ERC721 with some basic modifications . I have used ethers for the integration of the smart contract with the front-end in the Hardhat environment. Moreover , It has the testcases which were used for the validation of the contract .
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
