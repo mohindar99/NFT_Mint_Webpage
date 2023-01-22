@@ -49,9 +49,5 @@ function mint(uint256 quantity_) public payable{
         totalSupply++;
         _safeMint(msg.sender,newTokenId);
     }
-
 }
-
-
-
 }
