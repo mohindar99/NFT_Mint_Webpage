@@ -11,13 +11,12 @@ describe("NFT contract", function () {
   let addrs;
 
     beforeEach(async function () {
-      
     nft = await ethers.getContractFactory("CyberPunkNFT");
     [owner, addr1, addr2, ...addrs] = await ethers.getSigners();
     nft_webpage = await nft.deploy();
   });
 
-    describe("deployment", function () {
+  describe("deployment", function () {
       
         it("Should go to the right owner", async function () {
         expect(await nft_webpage.owner()).to.equal(owner.address);        
